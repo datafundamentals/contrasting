@@ -1,0 +1,6 @@
+docker build -t contrast/jan20a .
+docker build -t contrast/160126a .
+docker images
+[docker run -rm=true -p 8121:8942 contrast/160126a] //to test things out removes when quit
+docker run -it -d -p 8121:8942 --name contrast_a contrast/160126a 
+--then test with 192.168.33.2:8121
