@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.contrasting.ContrastingApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.contrasting.ContrastingApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.contrasting.html">com.contrasting</a> &gt; ContrastingApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.002s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>05:29:24.041 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.contrasting.ContrastingApplicationTests]
+05:29:24.045 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+05:29:24.048 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+05:29:24.054 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.contrasting.ContrastingApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+05:29:24.067 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@3a5f7f7 declaringClass = 'com.contrasting.ContrastingApplicationTests', classes = '{class com.contrasting.ContrastingApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+05:29:24.071 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.contrasting.ContrastingApplicationTests]: class path resource [com/contrasting/ContrastingApplicationTests-context.xml] does not exist
+05:29:24.072 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.contrasting.ContrastingApplicationTests]: class path resource [com/contrasting/ContrastingApplicationTestsContext.groovy] does not exist
+05:29:24.072 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.contrasting.ContrastingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+05:29:24.073 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.contrasting.ContrastingApplicationTests]
+05:29:24.075 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.contrasting.ContrastingApplicationTests]: using defaults.
+05:29:24.081 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+05:29:24.093 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4f0d6054, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@223bd746, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@cea795, org.springframework.test.context.support.DirtiesContextTestExecutionListener@526a3983, org.springframework.test.context.transaction.TransactionalTestExecutionListener@76c1fc5a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a3c8423]
+05:29:24.095 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.contrasting.ContrastingApplicationTests]
+05:29:24.095 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.contrasting.ContrastingApplicationTests]
+05:29:24.097 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.contrasting.ContrastingApplicationTests]
+05:29:24.097 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.contrasting.ContrastingApplicationTests]
+05:29:24.097 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.contrasting.ContrastingApplicationTests]
+05:29:24.098 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.contrasting.ContrastingApplicationTests]
+05:29:24.099 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@20d6541c testClass = ContrastingApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19939367 testClass = ContrastingApplicationTests, locations = '{}', classes = '{class com.contrasting.ContrastingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+05:29:24.099 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.contrasting.ContrastingApplicationTests]
+05:29:24.100 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.contrasting.ContrastingApplicationTests]
+05:29:24.101 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@20d6541c testClass = ContrastingApplicationTests, testInstance = com.contrasting.ContrastingApplicationTests@22d8217f, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19939367 testClass = ContrastingApplicationTests, locations = '{}', classes = '{class com.contrasting.ContrastingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+05:29:24.152 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+05:29:24.154 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+05:29:24.154 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+05:29:24.155 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.2.RELEASE)
+
+2016-02-02 05:29:24.342  INFO 6656 --- [    Test worker] c.c.ContrastingApplicationTests          : Starting ContrastingApplicationTests on Petes-MacBook-Pro.local with PID 6656 (/Users/petecarapetyan/work/contrast/contrasting/build/classes/test started by petecarapetyan in /Users/petecarapetyan/work/contrast/contrasting)
+2016-02-02 05:29:24.342  INFO 6656 --- [    Test worker] c.c.ContrastingApplicationTests          : No active profile set, falling back to default profiles: default
+2016-02-02 05:29:24.373  INFO 6656 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6bb05d7c: startup date [Tue Feb 02 05:29:24 CST 2016]; root of context hierarchy
+2016-02-02 05:29:25.721  INFO 6656 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-02-02 05:29:25.738  INFO 6656 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-02-02 05:29:25.786  INFO 6656 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-02-02 05:29:25.788  INFO 6656 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-02-02 05:29:25.789  INFO 6656 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-02-02 05:29:25.927  INFO 6656 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-02 05:29:26.228  INFO 6656 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2016-02-02 05:29:26.303  INFO 6656 --- [    Test worker] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-02-02 05:29:26.481  INFO 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-02 05:29:26.485 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table attitude
+2016-02-02 05:29:26.485 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.485 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table deployment
+2016-02-02 05:29:26.486 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.486 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table metric
+2016-02-02 05:29:26.486 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.487 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table note
+2016-02-02 05:29:26.487 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.487 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table skill
+2016-02-02 05:29:26.487 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.488 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table task
+2016-02-02 05:29:26.488 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.488 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table team_member
+2016-02-02 05:29:26.488 ERROR 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2016-02-02 05:29:26.538  WARN 6656 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 10000, SQLState: 01J01
+2016-02-02 05:29:26.538  WARN 6656 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database 'memory:testdb' not created, connection made to existing database instead.
+2016-02-02 05:29:26.538  INFO 6656 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2016-02-02 05:29:26.926  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------START POPULATING DATABASE
+2016-02-02 05:29:27.114  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING attitude WITH 6
+2016-02-02 05:29:27.130  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING deployment WITH 6
+2016-02-02 05:29:27.147  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING metric WITH 13
+2016-02-02 05:29:27.186  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING note WITH 24
+2016-02-02 05:29:27.232  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING skill WITH 37
+2016-02-02 05:29:27.277  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING task WITH 41
+2016-02-02 05:29:27.333  INFO 6656 --- [    Test worker] com.contrasting.ContrastingApplication   : -------------------------------DONE POPULATING teamMember WITH 56
+2016-02-02 05:29:27.334  INFO 6656 --- [    Test worker] c.c.ContrastingApplicationTests          : Started ContrastingApplicationTests in 3.177 seconds (JVM running for 3.979)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.4</a> at Feb 2, 2016 5:29:27 AM</p>
+</div>
+</div>
+</body>
+</html>

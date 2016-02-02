@@ -1,9 +1,6 @@
 package com.contrasting;
 
-import org.btrg.utils.random.RandomParagraph;
-import org.btrg.utils.random.RandomProvider;
-import org.btrg.utils.random.RandomSentence;
-import org.btrg.utils.random.RandomWord;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -18,6 +15,10 @@ import com.contrasting.model.Note;
 import com.contrasting.model.Skill;
 import com.contrasting.model.Task;
 import com.contrasting.model.TeamMember;
+import com.contrasting.random.RandomParagraph;
+import com.contrasting.random.RandomProvider;
+import com.contrasting.random.RandomSentence;
+import com.contrasting.random.RandomWord;
 import com.contrasting.repository.AttitudeRepository;
 import com.contrasting.repository.DeploymentRepository;
 import com.contrasting.repository.MetricRepository;
