@@ -1,4 +1,9 @@
 cd ~/work/contrasting
+echo "T------------------------------------"
+echo "THE NEXT LINE SHOULD LOOK LIKE THIS:"
+echo "-------------------------------------"
+echo "Dockerfile  contrasting.jar  runaDockerBuild.sh  wordList.txt"
+echo "-------------------------------------"
 docker build -t contrast/pre_a .
 docker images
 docker ps
